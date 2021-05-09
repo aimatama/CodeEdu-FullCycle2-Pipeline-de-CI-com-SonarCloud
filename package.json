@@ -1,0 +1,24 @@
+{
+  "name": "codeedu-fullcycle2-pipeline-de-ci-com-sonarcloud",
+  "version": "1.0.0",
+  "description": "CodeEdu-FullCycle2-Pipeline-de-CI-com-SonarCloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aimatama/CodeEdu-FullCycle2-Pipeline-de-CI-com-SonarCloud.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aimatama/CodeEdu-FullCycle2-Pipeline-de-CI-com-SonarCloud/issues"
+  },
+  "homepage": "https://github.com/aimatama/CodeEdu-FullCycle2-Pipeline-de-CI-com-SonarCloud#readme",
+  "dependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^26.6.3",
+    "sonar-scanner": "^3.1.0"
+  }
+}
