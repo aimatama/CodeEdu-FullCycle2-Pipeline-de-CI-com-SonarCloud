@@ -15,11 +15,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js 16.1.0
+    - name: Pull do codigo fonte
+      uses: actions/checkout@v2
+    - name: Setup do Node.js 16.1.0
       uses: actions/setup-node@v2
       with:
         node-version: 16.1.0
-    - run: npm ci
-    - run: npm run build --if-present
-    - run: npm test
+    - name: Executa o NPM CI
+      run: npm ci
+    - name: Executa o NPM RUN
+      run: npm run build --if-present
+    - name: Executa o NPM TEST
+      run: npm test
